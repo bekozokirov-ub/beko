@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rasm va Matn Yuklash</title>
+</head>
+<body>
+
+<h2>Rasm va Matn Yuklash</h2>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <label>Matn kiriting:</label><br>
+    <textarea name="text" rows="4" cols="50" required></textarea><br><br>
+
+    <label>Rasm tanlang:</label><br>
+    <input type="file" name="image" accept="image/*" required><br><br>
+
+    <button type="submit" name="submit">Yuklash</button>
+</form>
+
+</body>
+</html>
